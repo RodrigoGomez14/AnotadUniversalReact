@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AnotadorUniversalReact/static/css/main.4377fc21.chunk.css",
+    "main.js": "/AnotadorUniversalReact/static/js/main.262d359b.chunk.js",
+    "main.js.map": "/AnotadorUniversalReact/static/js/main.262d359b.chunk.js.map",
+    "runtime~main.js": "/AnotadorUniversalReact/static/js/runtime~main.faaace6d.js",
+    "runtime~main.js.map": "/AnotadorUniversalReact/static/js/runtime~main.faaace6d.js.map",
+    "static/css/2.568101d1.chunk.css": "/AnotadorUniversalReact/static/css/2.568101d1.chunk.css",
+    "static/js/2.15b84ccc.chunk.js": "/AnotadorUniversalReact/static/js/2.15b84ccc.chunk.js",
+    "static/js/2.15b84ccc.chunk.js.map": "/AnotadorUniversalReact/static/js/2.15b84ccc.chunk.js.map",
+    "index.html": "/AnotadorUniversalReact/index.html",
+    "precache-manifest.7dc30132c6b9bb6b88171be0f0a107a9.js": "/AnotadorUniversalReact/precache-manifest.7dc30132c6b9bb6b88171be0f0a107a9.js",
+    "service-worker.js": "/AnotadorUniversalReact/service-worker.js",
+    "static/css/2.568101d1.chunk.css.map": "/AnotadorUniversalReact/static/css/2.568101d1.chunk.css.map",
+    "static/css/main.4377fc21.chunk.css.map": "/AnotadorUniversalReact/static/css/main.4377fc21.chunk.css.map",
+    "static/media/logo.svg": "/AnotadorUniversalReact/static/media/logo.5d5d9eef.svg"
+  }
+}
