@@ -1,25 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
+import {Switch,Route,BrowserRouter,} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
+import Menu from "./Components/Menu"
+import Chinchon from "./Pages/Chinchon"
+import Escoba from "./Pages/Escoba"
+import Generala from "./Pages/Generala"
+import Chorizo from "./Pages/Chorizo"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Menu}/>
+        <Route exact path="/Chinchon" component={Chinchon}/>
+        <Route exact path="/Escoba" component={Escoba}/>
+        <Route exact path="/Generala" component={Generala}/>
+        <Route exact path="/Chorizo" component={Chorizo}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
